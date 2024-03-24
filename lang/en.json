@@ -1,0 +1,16 @@
+{
+    "greeting": "Welcome to the first version of the engine for creating a bot on Aiogram, all the details can be found in readme.txt",
+    "enter_token": "Enter your bot token ",
+    "menu": "[1] Add something to the code [2] Complete creation \n[3] You don’t know Aiogram [4] Import the library \n[5] Add a start command [6] Download the required version of aiogram",
+    "act": "Action ",
+    "enter_button": "Enter a name for the button ",
+    "enter_purpose": "Done, now write the number of lines you will enter for this command",
+    "type_code": "Write the code \n",
+    "button_done": "Completed (Once the button action is completed, it cannot be changed)",
+    "closing": "Completion of the program!",
+    "success_on_end": "Successfully! If you have any problems with the code or an error in the engine itself, please contact @Samtakoiiii",
+    "goto_help": "To your help.txt file",
+    "before_1_qm": "I hope you got here before using 1, so enter the name of the library without importing",
+    "code_length": "Write how many lines your code for the start command will be",
+    "done": "Code ended"
+}
