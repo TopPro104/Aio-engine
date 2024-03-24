@@ -1,0 +1,16 @@
+await message.reply ("") -- Отправка сообщения в ответ пользователю
+buttons = []
+    keyboard.add(*buttons)
+    await message.answer("", reply_markup=keyboard) -- Создание  кнопок,в buttons добавить все существующие кнопки
+user_id = message.from_user.id - Узнать id пользователя
+username = message.from_user.username - Узнать юзернейм пользователя
+
+
+-----------------------------------
+
+await message.reply ("") -- Send a message in response to the user
+buttons = []
+    keyboard.add(*buttons)
+    await message.response("", response_markup=keyboard) -- Creating buttons, add all additional buttons to the buttons
+user_id = message.from_user.id - find out the user ID
+username = message.from_user.username - find out the user's username
