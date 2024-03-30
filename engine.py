@@ -21,7 +21,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
         n = 0
     else:
         n = 100
-    with open("lang/{input('Enter your language here: en/ru > ')}.json", "r") as rfile:
+    with open(f"lang/{input('Enter your language here: en/ru > ')}.json", "r") as rfile:
         lang = json.load(rfile)
     print(lang["greeting"])
     token = input(lang["enter_token"])
