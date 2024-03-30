@@ -41,6 +41,7 @@ readme.txt: Прочтите файл readme.txt для общей информ�
 
 Создано ChatGPT-4 (сам текст) 🙂
 
+Телеграмм для связи: @Samtakoiiii
 
 --------------------------------------------
 
@@ -82,3 +83,5 @@ Conclusion
 This mini-engine is intended to simplify the process of creating Telegram bots. It enables users to quickly set up the bot's functionality without needing a deep understanding of programming.
 
 Created by ChatGPT-4 (documentation of project)🙂
+
+Telegram for communication: @Samtakoiiii
