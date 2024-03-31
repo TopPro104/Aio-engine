@@ -6,6 +6,12 @@ import json
 def main():
     print(os.getcwd())
     directory = input("Enter directory name > ")  
+    windows = True
+    winda = input("You using windows? Yes/No > ")
+    if winda == "Yes":
+        windows = True
+    elif winda == "No":
+        windows = False
     os.chdir(directory)
     print("Проверка")
     if not os.path.isfile("filee.py"): 
@@ -81,7 +87,10 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 
             case 6:
                 current_directory = os.getcwd()
-                bat_file_path = os.path.join(current_directory, "aioinstaller.bat")
+                if windows == True:
+                    bat_file_path = os.path.join(current_directory, "aioinstaller.bat")
+                else:
+                    bat_file_path = os.path.join(current_directory, "aioinstaller.sh")
                 subprocess.call([bat_file_path])
 
     print(lang["done"])
