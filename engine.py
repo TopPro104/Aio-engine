@@ -1,7 +1,11 @@
 import os
 import subprocess
 import json
-
+from aiogram import Bot, types, Dispatcher
+from aiogram.utils import executor
+from aiogram.dispatcher.filters import Text
+from aiogram.dispatcher import FSMContext
+from aiogram.dispatcher.filters.state import State, StatesGroup
 
 def main():
     print(os.getcwd())
@@ -15,7 +19,7 @@ def main():
     os.chdir(directory)
     print("Проверка")
     if not os.path.isfile("filee.py"): 
-        code = open("filee.py", "w+")
+        code = open("filee.py", "w+")   
         code.write("""from aiogram import Bot, types, Dispatcher
 from aiogram.utils import executor
 from aiogram.dispatcher.filters import Text
@@ -92,6 +96,17 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
                 else:
                     bat_file_path = os.path.join(current_directory, "aioinstaller.sh")
                 subprocess.call([bat_file_path])
+            case 7:
+                print(lang["tokencheck"])
+                TOKEN = input()
+                bot = Bot(token=TOKEN)
+                dp = Dispatcher(bot)
+                try:
+                    if __name__ == '__main__':
+                        executor.start_polling(dp, skip_updates=True)
+                except:
+                    print("The token is incorrect")
+                
 
     print(lang["done"])
 
