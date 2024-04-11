@@ -15,7 +15,7 @@ This is a small engine for creating telegram bots using the aiogram library, bui
 Использование движка:
 
 Запустите скрипт движка.
-Введите название директории, в которой будет создан бот.
+Введите название директории, в которой будет создан бот. (Скорее всего будет выведена некорректная директория,если вы используете vscode или другие IDE,в таком случае укажите директорию в таком формате C:/Users.../Aio-engine-main (Без / на конце)
 Следуйте инструкциям на экране для настройки бота.
 Основные функции
 Установка токена:
@@ -58,7 +58,7 @@ Create a new directory for your bot.
 Using the Engine:
 
 Run the engine script.
-Enter the name of the directory where the bot will be created.
+Enter the name of the directory where the bot will be created. (Most likely the incorrect directory will be displayed if you are using vscode or other IDEs, in which case specify the directory in this format: C:/Users.../Aio-engine-main (Without the / at the end)
 Follow the on-screen instructions to set up the bot.
 Core Features
 Token Setup:
