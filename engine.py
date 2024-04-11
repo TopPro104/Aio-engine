@@ -17,7 +17,7 @@ def main():
     elif winda == "No":
         windows = False
     os.chdir(directory)
-    print("Проверка")
+    print("Checking")
     if not os.path.isfile("filee.py"): 
         code = open("filee.py", "w+")   
         code.write("""from aiogram import Bot, types, Dispatcher
@@ -27,7 +27,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 """)
         code.close()  
-        print("Выполнено!")
+        print("Alright!")
         n = 0
     else:
         n = 100
