@@ -30,7 +30,7 @@ This is a small engine for creating telegram bots using the aiogram library, bui
 При необходимости вы можете добавить дополнительные библиотеки в вашего бота.
 Запуск бота:
 
-После завершения настройки, движок автоматически добавляет необходимый код для запуска бота.
+После завершения настройки, движок автоматически добавляет необходимый код для запуска бота в файл filee.py (вы можете конвертировать в exe по своему желанию через auto-py-to-exe).
 Дополнительные ресурсы
 help.txt: Для получения дополнительной информации и помощи обратитесь к файлу help.txt.
 readme.txt: Прочтите файл readme.txt для общей информации о движке и его возможностях.
@@ -73,7 +73,7 @@ Importing Libraries:
 If necessary, you can add additional libraries to your bot.
 Bot Launch:
 
-After completing the setup, the engine automatically adds the necessary code to launch the bot.
+Once the setup is complete, the engine automatically adds the necessary code to run the bot in the filee.py file (you can convert to exe if you wish via auto-py-to-exe).
 Additional Resources
 help.txt: For further information and assistance, refer to the help.txt file.
 readme.txt: Read the readme.txt file for general information about the engine and its capabilities.
